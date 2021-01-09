@@ -175,6 +175,8 @@
      height:100%;
      display:grid;
      place-content: center;
+     z-index:1;
+     pointer-events: none;
  }
  .overplay h3{
      color:white;
@@ -191,6 +193,7 @@
  .icon-container{
      margin-top:3rem;
      text-align: center;
+     pointer-events: all;
  }
  .icon-container a i{
      color:#b06010;
@@ -378,7 +381,7 @@
     color:white;
 }
 .feedBack-container{
-    height:197px;
+    height:auto;
     max-width: 1080px;
     display:flex;
     flex-direction: row;
@@ -391,12 +394,9 @@
 .inf-comment,.inf-person{
     pointer-events: none;
 }
-.feedBack-content_inf{
-    position:absolute;
-    top:0;
-    left:0;
-    width:30%;
-    padding:0 1rem;
+.feedBack-container{
+    display:flex;
+    
 }
 .inf-person{
     margin-top:2rem;
@@ -405,7 +405,7 @@
 }
 .inf-person img{
     height:50px;
-    width:50px;
+    width:50px !important;
     display: block;
     margin-left:auto;
 }
@@ -698,6 +698,7 @@ footer p a:hover{
     display:flex;
     justify-content: center;
     align-items: center;
+
 }
 ._overplay-content{
     opacity: 0;
@@ -849,4 +850,78 @@ footer p a:hover{
 }
 .card{
     transition: all 0.3s linear;
+}
+
+.carousel .owl-theme .owl-dots {
+    left: 50%;
+    bottom: 20%;
+    display: flex;
+    position: absolute;
+    transform:translate(-50%,-20%);
+    color:#b06010;
+    z-index: 100;
+}
+/* sua thu vien  */
+.carousel .owl-theme .owl-dots .owl-dot span {
+    background:#b06010;
+ 
+}
+.carousel .owl-theme .owl-dots .owl-dot span:hover{
+    background:white;
+}
+
+.carousel .owl-theme .owl-dots .owl-dot.active span {
+    background:white;
+ 
+}
+.carousel .owl-carousel .owl-nav button.owl-prev{
+    font-size:5rem;
+    position:absolute;
+    top:50%;
+    left:5%;
+    color:white;
+    transform:translate(-5%,-50%);
+    outline:none;
+   
+    opacity:0.7;
+
+}
+.carousel .owl-carousel .owl-nav button.owl-next{
+ 
+    font-size:5rem;
+    position:absolute;
+    top:50%;
+    right:5%;
+    color:white;
+    transform:translate(-5%,-50%);
+    outline:none;
+    opacity:0.7;
+}
+.carousel .owl-theme .owl-dots .owl-dot{
+    outline:none;
+}
+.carousel .owl-carousel .owl-nav button.owl-next:hover,
+.carousel .owl-carousel .owl-nav button.owl-prev:hover{
+    background:transparent;
+    opacity: 1;
+}
+
+
+/* sua feedback  */
+.feedBack-container.owl-carousel.owl-drag .owl-item {
+    background: transparent;
+}
+.feedBack-content  .owl-theme .owl-dots .owl-dot span {
+    background:#e7a767;
+    width:15px;
+    height:15px;
+   
+}
+
+.feedBack-content  .owl-theme .owl-dots .owl-dot {
+    margin-top:2rem;
+    outline:none;
+}
+.feedBack-content  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff9800;
 }
