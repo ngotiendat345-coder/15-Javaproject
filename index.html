@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font google  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- link css  -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-contact">
+            <div class="header-container">
+                <p><span><i class="fas fa-phone-alt"></i></span>(+000) 123 456 </p>
+                <p><span><i class="fas fa-envelope"></i></span><a href="#">info@example.com</a></p>
+            </div>
+        </div>
+        <div class="header-nav">
+           <div class="header-container nav">
+            <div class="nav-logo">
+                <a href="#">
+                   <h1>
+                        <i class="fas fa-home"></i>
+                        homestead
+                   </h1>
+                   <p>
+                       the real estate
+                   </p>
+                </a>
+            </div>
+            <ul class="links-container ">
+                <li>
+                    <a href="" class="active">home</a>
+                </li>
+                <li>
+                    <a href="">services</a>
+                </li>
+                <li>
+                    <a href="./gallery.html">gallery</a>
+                </li>
+                <li class="li_short-codes">
+                    <a href="#">short codes <i class="fas fa-caret-down"></i></a>
+                    <div class="childLi">
+                        <a href="#">web icons</a>
+                        <a href="#">typography</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">contact</a>
+                </li>
+            </ul>
+            <ul class="icons-container">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+           </div>
+        </div>
+    </header>
+    <section class="carousel">
+            <div class="carousel-images">
+                <img src="./images_Homestead/banner.jpg" alt="" id="last">
+                <img src="./images_Homestead/banner-2.jpg" alt="">
+                <img src="./images_Homestead/banner-1.jpg" alt="" id="first">
+            </div>
+            <div class="overplay">
+                <h3>
+                    Residential and commercial building, remodeling & renovations experience
+                </h3>
+                <div class="icon-container">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                   
+                    <a href="#">
+                        <i class="fab fa-vimeo-v"></i>
+                    </a>
+                </div>
+            </div>
+            <button class="prev" type="button">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next" type="button">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="btn-container">
+                <div class="btn-icon active" data-image="image-0" ></div>
+                <div class="btn-icon" data-image="image-1"></div>
+                <div class="btn-icon" data-image="image-2"></div>
+            </div>
+    </section>
+    <section class="aboutUS padding-5">
+        <article class="aboutUS-title global-title">
+            <h2>
+                about us
+            </h2>
+            <p>Etiam sodales orci sit amet vehicula pellentesque</p>
+            <p class="title_text">
+                Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.
+            </p>
+        </article>
+        <article class="aboutUS-content container">
+            <div class="aboutUS-content_item">
+                <i class="fas fa-home"></i>
+                <h3>Best Views</h3>
+                <p>
+                    Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus
+                </p>
+            </div>
+            <div class="aboutUS-content_item">
+                <i class="fas fa-bars"></i>
+                <h3>Affordable Price</h3>
+                <p>
+                    Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus
+                </p>
+            </div>
+            <div class="aboutUS-content_item">
+                <i class="far fa-square"></i>
+                <h3>Spacious</h3>
+                <p>
+                    Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus
+                </p>
+            </div>
+            <div class="aboutUS-content_item">
+                <i class="fas fa-building"></i>
+                <h3>Building</h3>
+                <p>
+                    Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus
+                </p>
+            </div>
+        </article>
+    </section>
+    <aricle class="futureHome">
+        <div class="futureHome-container">
+            <img src="./images_Homestead/2.jpg" alt="">
+            <div class="futureHome-content">
+                <h1>Your Future Home</h1>
+                <p class="text">Ut enim ad minima veniam, quis nostrum exercitationem ulla corporis suscipit laboriosam, nisi ut aliquid ex ea.</p>
+                <div class="futureHome_detail"><i class="fas fa-bed"></i><p>Bedrooms: 3</p></div>
+                <div class="futureHome_detail"><i class="fas fa-crop"></i><p>Area: 1500.00 m²</p></div>
+                <div class="futureHome_detail"><i class="fas fa-car"></i><p>Parking place: 3</p></div>
+                <div class="futureHome_detail"><i class="fas fa-coffee"></i><p>Kitchenroom: 1</p></div>
+            </div>
+        </div>
+    </aricle>
+    <section class="ourTeam padding-5">
+        <article class="ourTeam-title global-title">
+            <h2>
+                our team
+            </h2>
+            <p>
+                Etiam sodales orci sit amet vehicula pellentesque
+            </p>
+        </article>
+        <article class="ourTeam-content container">
+            <div class="ourTeam-content_info ">
+                <img src="./images_Homestead/t1.jpg" alt="">
+                <h3>Amanda Seylon</h3>
+                <p>Site Manager</p>
+                <div class="line">
+                    <div class="another_line">
+                    </div>
+                </div>
+                <div class="person-icon_container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="ourTeam-content_info ">
+                <img src="./images_Homestead/t4.jpg" alt="">
+                <h3>Laura Mark</h3>
+                <p>Manager</p>
+                <div class="line">
+                    <div class="another_line">
+                    </div>
+                </div>
+                <div class="person-icon_container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="ourTeam-content_info ">
+                <img src="./images_Homestead/t3.jpg" alt="">
+                <h3>Minnie Lott</h3>
+                <p>Worker</p>
+                <div class="line">
+                    <div class="another_line">
+                    </div>
+                </div>
+                <div class="person-icon_container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="feedBack padding-5">
+        <article class="feedBack-title global-title">
+            <h2>Customer Feedback</h2>
+            <p>Etiam sodales orci sit amet vehicula pellentesque</p>
+        </article>
+        <article class="feedBack-content container">
+            <div class=" feedBack-container">
+                   <!-- nguoi 1 -->
+                <div class="feedBack-content_inf">
+                    <div class="inf-comment">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt sed mollitia sequi expedita quidem cum.
+                        </p>
+                        <div class="triangle"></div>
+                    </div>
+                    <div class="inf-person">
+                        <img src="./images_Homestead/f1.jpg" alt="">
+                        <div class="inf-detail">
+                            <h4>Peter parker</h4>
+                            <p>
+                                vestibulum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- nguoi 2 -->
+                <div class="feedBack-content_inf " >
+                    <div class="inf-comment">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt sed mollitia sequi expedita quidem cum.
+                        </p>
+                        <div class="triangle"></div>
+                    </div>
+                    <div class="inf-person">
+                        <img src="./images_Homestead/f2.jpg" alt="">
+                        <div class="inf-detail">
+                            <h4>Peter parker</h4>
+                            <p>
+                                vestibulum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- nguoi 3 -->
+                <div class="feedBack-content_inf">
+                    <div class="inf-comment">
+                       <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt sed mollitia sequi expedita quidem cum.
+                       </p>
+                       <div class="triangle"></div>
+                    </div>
+                    <div class="inf-person">
+                        <img src="./images_Homestead/f3.jpg" alt="">
+                        <div class="inf-detail">
+                            <h4>Peter parker</h4>
+                            <p>
+                                vestibulum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- nguoi 4 -->
+                <div class="feedBack-content_inf person4">
+                    <div class="inf-comment">
+                       <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt sed mollitia sequi expedita quidem cum.
+                       </p>
+                    </div>
+                    <div class="inf-person">
+                        <img src="./images_Homestead/f4.jpg" alt="">
+                        <div class="inf-detail">
+                            <h4>Peter parker</h4>
+                            <p>
+                                vestibulum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feedBack-btn">
+                <div class="_btn-icon fb_prev btn-active"></div>
+                <div class="_btn-icon fb_next"></div>
+            </div>
+        </div>
+        </article>
+    </section>
+    <section class="overview padding-5">
+        <article class="overview-title global-title">
+            <h2>Overview</h2>
+            <p>Etiam sodales orci sit amet vehicula pellentesque</p>
+        </article>
+        <div class="overview-content container">
+            <div class="overview-content_item">
+                <i class="fas fa-user"></i>
+                <div class="item_inf">
+                    <h3 data-target="16500">16500</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            <div class="overview-content_item">
+                <i class="fas fa-briefcase"></i>
+                <div class="item_inf">
+                    <h3 data-target="210">210</h3>
+                    <p>Sales per month</p>
+                </div>
+            </div>
+            <div class="overview-content_item">
+                <i class="fas fa-home"></i>
+                <div class="item_inf">
+                    <h3 data-target="20500">20500</h3>
+                    <p>Number of Homes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article class="list-modal"  >
+        <div class="modal" id="myModal">
+            <div class="modal-container " >
+                <div class="modal-content">
+                     <div class="modal-header">
+                         <h2>Homestead</h2>
+                         <button type="button"><i class="fas fa-times"></i></button>
+                     </div>
+                     <div class="modal-body">
+                         <img src="./images_Homestead/g4.jpg" alt="">
+                         <h2>Fishing Season Now Open</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius lectus vitae porttitor fringilla. Donec turpis orci, elementum a nunc quis, maximus varius ipsum. Sed bibendum ex in dignissim bibendum.</p>
+                     </div>
+                </div>
+             </div>
+        </div>
+    </article>
+    <section class="contact">
+        <div class="container contact-container">
+            <div class="contact-item">
+                    <h3>Contact Info</h3>
+                    <ul class="contact_list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            1234k Avenue, 4th block,New York City.
+                        </li>
+                        <li class="contact_email-li">
+                            <i class="fas fa-envelope"></i>
+                            
+                                <a href=""><span>info@example.com</span></a>
+                            
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            
+                                +1234 567 567
+                           
+                        </li>
+                    </ul>
+            </div>
+        
+        <div class="contact-item contact_about">
+            <h3>About Us </h3>
+            <p>
+                Donec purus neque, vulputate id est id, pretium semper enim. Morbi viverra congue nisi vel pulvinar posuere sapien eros, sed faucibus.
+            </p>
+            <ul class="icons-container">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="contact-item ">
+            <h3>Latest News</h3>
+            <ul class="contact_list latestNews-list">
+                <li><a href="#myModal">
+                    <i class="fas fa-long-arrow-alt-right"></i>Donec purus neque, vulputate id est id
+                </a></li>
+                <li><a href="#myModal">
+                    <i class="fas fa-long-arrow-alt-right"></i>Nullam fringilla sed quam vitae
+                </a></li>
+                <li><a href="#myModal">
+                    <i class="fas fa-long-arrow-alt-right"></i>Cras libero arcu, accumsan ac
+                </a></li>
+                <li><a href="#myModal">
+                    <i class="fas fa-long-arrow-alt-right"></i>Aenean porttitor accumsan
+                </a></li>
+                <li><a href="#myModal">
+                    <i class="fas fa-long-arrow-alt-right"></i>Nullam sed turpis gravida
+                </a></li>
+            </ul>
+        </div>
+        <div class="sign-up">
+            <h3>Sign up for our Newsletter</h3>
+            <form class="sign-up_form">
+                <input type="email" placeholder="Enter your email..." required>
+                <button type="submit" class="sign-up_btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    </section>
+    <a href="#header" class="toTOP"><img src="./images_Homestead/arrow.png" alt=""></a>
+    <footer>
+        <p>© 2018 Homestead. All rights reserved | Design by <a href="#">W3layouts</a></p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
